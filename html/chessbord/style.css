@@ -1,0 +1,18 @@
+.row div{
+    background-color: rgb(53, 51, 51);
+    border: 1px;
+    height: 150px;
+    margin: -2px;
+    /* margin-top: -2px; */
+    width: 12.53%;
+    display: inline-block;;
+
+}
+
+.row .odd{
+    background-color: black;
+}
+
+.row {
+    margin: -2px;
+}
