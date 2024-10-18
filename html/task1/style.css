@@ -1,0 +1,137 @@
+body{
+    background-color:rgb(234, 234, 234);
+}
+nav{
+    height: 100px;
+    width: 100%;
+    /* border: 2px solid greenyellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#lft{
+    display: flex;
+    margin-left: 3%;
+    /* justify-content: center; */
+    /* border: 1px solid greenyellow; */
+    justify-content:space-around;
+    width: 12%;
+}
+#rgt{
+    display: flex;;
+    justify-content:space-around;
+    /* border: 1px solid greenyellow; */
+    width: 17%;
+    margin-right: 5%;
+
+}
+#frowi{
+    margin-top: 9%;
+    /* border: 1px solid red; */
+    height: 20px;
+    width: 20px;
+}
+
+#prfnm p{
+    
+   font-size:large ;
+   font-weight: 600;
+
+}
+#job p{
+    margin-top: 50%;
+    font-weight: 100;
+}
+#rgt a {
+    text-decoration:none;
+    color: gray;
+}
+
+
+/* content part */
+.content{
+    /* border: 1px solid black; */
+    display: flex;
+}
+#rgtcon{
+    width: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: end;
+}
+#imgr{
+  
+    border: 1px solid gold;
+    width: 400px;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+
+
+#lftcon>p:nth-child(1){
+    /* border: 1px solid red; */
+    margin-left: 2%;
+    font-size:50px;
+    font-weight: 900;
+}
+#lftcon>p:nth-child(2){
+    margin-left: 2%;
+
+    font-size: larger;
+    font-weight:bolder;
+}
+#lftcon>p:nth-child(3){
+    margin-left: 2%;
+
+    width: 40%;
+}
+
+#cir{
+    width: 60%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    
+    text-align: center;
+}
+
+#fircir{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    background-color: rgb(247, 154, 3);
+    width: 150px;
+    height: 150px;
+    border-radius:70%;
+    /* border: 1px solid black; */
+    font-size: x-large;
+}
+#fircir:hover ,#seccir:hover , #thrcir:hover{
+    background-color:white;
+    transition:500ms;
+    border: 1px solid black;
+}
+#seccir{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    background-color: rgb(222, 49, 99 );
+    width: 150px;
+    height: 150px;
+    border-radius:70%;
+    /* border: 1px solid black; */
+    font-size: x-large;
+}
+#thrcir{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    background-color: rgb(64, 224, 208);
+    width: 150px;
+    height: 150px;
+    border-radius:70%;
+    /* border: 1px solid black; */
+    font-size: x-large;
+}
+
