@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Times New Roman", Georgia, Serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+
+nav{
+    height: 55px;
+    background-color: rgb(236, 222, 222);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid greenyellow; */
+    box-shadow: rgba(149, 157, 165, 0.3) 0px 8px 24px;
+    position:sticky;
+    top: 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+#nrh{
+    margin-left: 2%;
+}
+#nlh {
+    display: flex;
+
+
+    width: 15%;
+    justify-content: space-around;
+    margin-right: 2%;
+    gap: 10px;
+    /* border: 1px solid black; */
+}
+
+#content{
+    height: 700px;
+    width: 100%;
+    background-image: url(./img/hamburger.jpg);
+    color: gray;
+    display: flex;
+    /* text-align: end; */
+    align-items:end;
+    
+}
+#content>h1{
+    padding-left: 2%;
+    padding-bottom: 2%;
+}
+
+#about{
+    margin-top:90px;
+    display: flex;
+    justify-content: center;
+    /* height: 600px; */
+    width: 100%;
+}
+#abom{
+    width: 75%;
+    /* border: 1px solid yellow; */
+    display: flex;
+    justify-content: space-between;
+}
+#alh{
+    width: 47%;
+    /* border: 3px solid red; */
+}
+#arh{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    text-align:justify;
+    align-items: center;
+    width: 50%;
+    /* border: 1px solid red; */
+}
+#arh>p{ 
+    font-size: large;
+}
+#pr{
+    color: gray;
+}
+
+
+/* menu */
+
+#menu{
+
+    margin-top:90px;
+    display: flex;
+    justify-content: center;
+    /* height: 600px; */
+    width: 100%;
+}
+
+#mn{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+#mlhs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    /* border: 2px solid rebeccapurple; */
+}
+#mlhs>h1{
+    text-align: center;
+}
+
+#mrhs{
+    width: 47%;
+}
+.mlh{
+    color: gray;
+}
