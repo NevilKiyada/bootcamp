@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+html{
+    scroll-behavior: smooth     ;
+}
 
 body {
     font-family: "Times New Roman", Georgia, Serif;
@@ -12,7 +15,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 nav{
-    height: 55px;
+    height: 55px;    
     background-color: rgb(236, 222, 222);
     display: flex;
     justify-content: space-between;
