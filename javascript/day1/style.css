@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'mast';
+    src: url(./assets/fonts/Ubuntu/Ubuntu-Regular.ttf);
+}
+
+body{
+    background-color: rgb(11, 82, 213);
+    margin: 0;
+    padding: 0;
+    font-family: mast;
+}
+
+.list{
+    list-style-type: none;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(53, 46, 46);
+    padding: 10px;
+}
+
+.list li{
+    margin-right: 20px;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.main{
+    background-color: white;
+}
+
+.main img{
+    height: 300px;
+    width: 230px;
+}
+
+.main th{
+    background-color: blue;
+    color: white;
+}
+
+.main td{
+    border: 1px solid grey;
+}
+
+.main h2{
+    color: blue;
+}
+
+footer{
+    background-color: rgb(45, 44, 44);
+    color: whitesmoke;
+    line-height: 400%;
+    text-align: center;
+}
