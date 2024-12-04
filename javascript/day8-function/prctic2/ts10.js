@@ -15,10 +15,11 @@
 
 function Text(){
     document.getElementById("h").innerHTML = " header clicked"
+    document.getElementById("cli").innerHTML = " clicked !!! "
 }
 
 function resetText(){
-    document.getElementById("h").innerHTML ="header"
+    document.getElementById("h").innerHTML ="Welcome !"
     document.getElementById("h").style.color = "black";
 }
 
@@ -29,5 +30,6 @@ function changeColor(){
 function calculateSquare() {
     let num = Number(document.getElementById("num").value);
     num *=num;
+    alert(num)
     document.getElementById("sq").innerHTML = num
 }

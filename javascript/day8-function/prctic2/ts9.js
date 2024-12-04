@@ -4,16 +4,19 @@
 // Input: 12345
 // Expected Output: 5
 
-function countDigits(num){
-    num = String(num);
-    let digits = 0  
-    for(let i=0; i<num.length; i++){
-        digits += 1;
-    }
+// function countDigits(num){
+//     num = String(num);
+//     let digits = 0  
+//     for(let i=0; i<num.length; i++){
+//         digits += 1;
+//     }
 
-    return digits;
-}
+//     return digits;
+// }
 
-num = 12345
+// num = 12345
 
-console.log(countDigits(num));
+// console.log(countDigits(num));
+
+ let a = "5";
+console.log(a++ + a)
