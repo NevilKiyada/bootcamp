@@ -7,6 +7,11 @@ document.querySelector('#min').addEventListener('click', min);
 function add() {
     count++;
     document.querySelector('#show').innerHTML = count;
+
+    if(count > 0) {
+        document.querySelector('#min').disabled = false;
+    }
+    
 }
 function min() {
     if (count <= 0) {

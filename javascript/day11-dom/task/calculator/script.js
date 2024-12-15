@@ -15,7 +15,9 @@ document.querySelectorAll("button").forEach((button) => {
 
     } else if (className.includes("operator")) {
       document.querySelector(".display").innerText = "0";
-    
+      if(operator != "") {
+        document.querySelector("button operator").disabled = true;
+      }
       if (values != "") {
         operator = buttonText
         ans += values;
@@ -38,6 +40,7 @@ document.querySelectorAll("button").forEach((button) => {
         console.log(result);
         values = ""
         operator = ""
+        ans = result;
         document.querySelector(".display").innerText = result;
       }
 
