@@ -29,6 +29,7 @@ function uploaddata(obj){
         return a.json()
     }) 
     .then((data)=>{
+        window.location.href = "http://127.0.0.1:5500/javascript/day12-productpage/mintra/html/login.html"
         alert("register user successfully")
     })
     .catch((err)=>{
