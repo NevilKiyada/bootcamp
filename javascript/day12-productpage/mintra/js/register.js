@@ -1,8 +1,9 @@
 console.log("hello ")
 document.getElementById("register").addEventListener("submit", (a) => {
     a.preventDefault();
+    let valid = false;
 
-
+    
     let username = document.getElementById("username").value;
     let email = document.getElementById("email").value;
     let password = document.getElementById("password").value
