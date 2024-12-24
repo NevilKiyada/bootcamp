@@ -1,0 +1,45 @@
+/* * {
+    background-color: rgb(211, 202, 190);
+}
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box>div{
+    height: 300px;
+    width:300px;
+    background-color: azure;
+}
+button{
+    background-color: aqua;
+    border: 1px solid green;
+    width: 300px;
+    height: 30px;
+}
+#button{
+    width: 300px;
+    background-color: aqua;
+} */
+
+
+body{
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+#main
+{
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
