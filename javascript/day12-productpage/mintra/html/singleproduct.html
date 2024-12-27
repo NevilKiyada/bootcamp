@@ -3,27 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Myntra Product</title>
     <link rel="stylesheet" href="../css/singleproduct.css">
 </head>
 <body>
     <header>
-        <div class="logo">M</div>
-        <nav>
-            <a href="#">MEN</a>
-            <a href="#">WOMEN</a>
-            <a href="#">KIDS</a>
-            <a href="#">HOME & LIVING</a>
-            <a href="#">BEAUTY</a>
-        </nav>
+        <div class="header-container">
+            <div class="logo">
+                <img src="../img/myntra-930x620.webp" alt="mintra" height="45px" width="">
+            </div>
+            <nav>
+                <a href="#">MEN</a>
+                <a href="#">WOMEN</a>
+                <a href="#">KIDS</a>
+                <a href="#">HOME & LIVING</a>
+                <a href="#">BEAUTY</a>
+            </nav>
+            <div class="header-icons">
+                <button class="icon-button">♡</button>
+                <button class="icon-button">🛍</button>
+                <button class="icon-button">👤</button>
+            </div>
+        </div>
     </header>
 
     <div class="container">
-        <div class="product-card" id="box">
-            <!-- Product details will load here dynamically -->
+        <div class="product-grid">
+            
+            <div class="product-image">
+                <img id="productImage" alt="Product Image">
+                <button class="wishlist-button">♡</button>
+            </div>
+
+            
+            <div class="product-details">
+                <div class="product-info">
+                    <h1 id="productTitle"></h1>
+                    <p id="productDescription" class="description"></p>
+                </div>
+
+                <div class="price-section">
+                    <span class="price" id="productPrice"></span>
+                    <span class="tax-info">Inclusive of all taxes</span>
+                </div>
+
+                <div class="size-section">
+                    <h3>Select Size</h3>
+                    <div class="size-buttons">
+                        <button class="size-button">XS</button>
+                        <button class="size-button">S</button>
+                        <button class="size-button">M</button>
+                        <button class="size-button">L</button>
+                        <button class="size-button">XL</button>
+                    </div>
+                </div>
+
+                <div class="action-buttons">
+                    <button class="add-to-bag" onclick="addtocart()" id="addToCartBtn">
+                        <span>🛍</span> ADD TO BAG
+                    </button>
+                    <button class="wishlist">
+                        <span>♡</span> WISHLIST
+                    </button>
+                </div>
+
+                <div class="delivery-info">
+                    <div class="info-item">
+                        <span class="icon">🚚</span>
+                        <span>Free delivery on orders above ₹799</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="icon">↗</span>
+                        <span>Share this product</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-        
+
+    <script src="../js/singleproduct.js"></script>
 </body>
-<script src="../js/singleproduct.js"></script>
 </html>
