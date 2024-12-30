@@ -77,6 +77,12 @@
       "username": "acd",
       "email": "aa@gmail.com",
       "password": "1233"
+    },
+    {
+      "id": "fa89",
+      "username": "ab",
+      "email": "ab@gmail.com",
+      "password": "123"
     }
   ],
   "cart": [
@@ -140,6 +146,38 @@
         "rating": {
           "rate": 3.9,
           "count": 120
+        }
+      },
+      "quantity": 1
+    },
+    {
+      "id": "8115",
+      "data": {
+        "id": "14",
+        "title": "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED ",
+        "price": 999.99,
+        "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate motion blur, ghosting, and reduce input lag",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+        "rating": {
+          "rate": 2.2,
+          "count": 140
+        }
+      },
+      "quantity": 1
+    },
+    {
+      "id": "7029",
+      "data": {
+        "id": "14",
+        "title": "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED ",
+        "price": 999.99,
+        "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate motion blur, ghosting, and reduce input lag",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+        "rating": {
+          "rate": 2.2,
+          "count": 140
         }
       },
       "quantity": 1
