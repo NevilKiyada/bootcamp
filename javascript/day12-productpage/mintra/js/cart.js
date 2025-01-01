@@ -9,7 +9,7 @@
 
 function view(ras) {
     return ras.map(product => `
-        <a href="singleproduct.html?id=${product.data.id}" class="product-card">
+        
             <div class="product-image">
                 <img src="${product.data.image}" alt="${product.data.title}">
             </div>
@@ -18,23 +18,40 @@ function view(ras) {
                 <p class="product-description">${product.data.description}</p>
                 <div class="product-price">₹${product.data.price}</div>
                 <div>
-                    <button onclick="plus()"> + </button>
+                    <button onclick="plus('${product.id}', ${product.quantity})"> + </button>
                     <input disabled type="text" id="count" value=${product.quantity}>
-                    <button onclick="mins(${product.id, product.quantity})"> - </button>
+                    <button onclick="minus('${product.id}', ${product.quantity})"> - </button> 
                 </div>
             </div>
-        </a>
+         
     `).join("");
 }
 
 
 
-function plus() {
-    fetch("http://localhost:3000/cart",)
+function plus(id, qn) {
+    let a = qn + 1;
+    fetch(`http://localhost:3000/cart/${id}`,{
+        method : "PATCH",
+        headers : {
+            "Content-Type" : "application/json"
+        },
+        body : JSON.stringify({quantity : a})
+    })
+    .then((Ras) => Ras.json())
+    .then((ras) =>{
+        console.log(ras);
+    })
+    .catch((err) => {
+        console.error(err);
+    });
 }
 
 
-function minus(id, qn) {
+function minus(id, qna) {
+    let qn = qna
+  
+    
     if (qn == 1) {
         fetch(`http://localhost:3000/cart/${id}`, {
             method: "DELETE",
@@ -45,6 +62,22 @@ function minus(id, qn) {
 
     }
     else{
-        let a = qn
+        let a = qn - 1;
+        fetch(`http://localhost:3000/cart/${id}`,{
+            method : "PATCH",
+            headers : {
+                "Content-Type" : "application/json"
+            },
+            body : JSON.stringify({quantity : a})
+        })
+        .then((Ras) => Ras.json())
+        .then((ras) =>{
+            console.log(ras);
+        })
+        .catch((err) => {
+            console.error(err);
+        });
+
+
     }
 }
