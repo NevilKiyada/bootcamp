@@ -6,6 +6,7 @@ document.getElementById("loginForm").addEventListener("submit", (a) => {
     let val = valid(email, pas)
     if (val) {
         alert("login successful")
+        window.location.href("D:\\R&W\\javascript\\day12-productpage\\mintra\\html\\index.html");
     }
     
 

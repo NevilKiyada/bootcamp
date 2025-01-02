@@ -161,6 +161,10 @@ h1 {
     color: #282c3f;
 }
 
+#total{
+    display: flex;
+}
+
 /* Responsive styles */
 @media (max-width: 768px) {
     nav {

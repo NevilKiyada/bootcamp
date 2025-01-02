@@ -1,13 +1,26 @@
+let totalprice = 0;
+
 (function () {
     fetch("http://localhost:3000/cart").then((ras) => ras.json()).then((Ras) => {
         console.log(Ras);
         document.getElementById("pro").innerHTML = view(Ras)
+        price(Ras)
+
     }).catch((err) => console.error(err));
 })()
 
 
+function price(ras){
+    ras.map((pr)=>{
+        totalprice += pr.data.price * pr.quantity;
+        console.log(totalprice)
+    })
+    document.getElementById("tot").innerText = totalprice.toFixed(2);
+}
+
 
 function view(ras) {
+
     return ras.map(product => `
         
             <div class="product-image">
