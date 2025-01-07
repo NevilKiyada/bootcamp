@@ -1,10 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+
+#nav{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+/* nevbar below link */
+#ne{
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+  background-color:  rgb(255, 255, 255);
+}
+.navb{
+  height: 75px;
+  width: 90%;
+  margin-left: 5%;
+  /* border: 1px solid green; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.navblinks{
+  
+  margin-top: -6px;
+  width: 100%;
+  height: 70px;
+  
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  gap: 50px;
+  overflow-y: scroll;
+}
+.navblinks p{
+  width: 100px;
+  /* border: 1px solid red; */
+  font-size: 20px;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+/* slider */
+
 html,
-    body {
+    .slider {
       position: relative;
-      height: 100%;
+      height:500px ;
+      margin-top: 100px;
     }
 
-    body {
+    .slider {
       background: #eee;
       font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
       font-size: 14px;
@@ -13,12 +67,12 @@ html,
       padding: 0;
     }
 
-    .swiper {
+    swiper-container {
       width: 100%;
       height: 100%;
     }
 
-    .swiper-slide {
+    swiper-slide {
       text-align: center;
       font-size: 18px;
       background: #fff;
@@ -27,9 +81,17 @@ html,
       align-items: center;
     }
 
-    .swiper-slide img {
+    swiper-slide img {
       display: block;
       width: 100%;
       height: 100%;
       object-fit: cover;
     }
+
+
+
+
+
+/*------- catagory ------ */
+
+

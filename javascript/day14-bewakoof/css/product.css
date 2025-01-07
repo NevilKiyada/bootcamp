@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#he{
+    background-color: rgb(67, 67, 238);
+    color: white;
+    height: 29px;
+    font-size: 20px;
+}
+
+
+/* sider */
+
+.scroll{
+    width: 90%;
+    margin: 2% 5% 0% 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.righscroll{
+    width: 30%;
+    border: 1px solid black;
+    height: 600px;
+}
+.leftscroll{
+    width: 68%;
+    height: 600px;
+    border: 1px solid red;
+}
+
+
+
+
+/* products cart*/
+
