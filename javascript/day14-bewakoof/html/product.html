@@ -1,34 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/product.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-    <div id="he">
-        <h4 align="center">  <i class="fa-solid fa-truck"></i> FREE SHIPPING on all orders above ₹399</h4>
+    <div id="he">  
+        <h4 align="center"> <i class="fa-solid fa-truck"></i> FREE SHIPPING on all orders above ₹399</h4>
     </div>
 
     <div class="scroll">
         <div class="righscroll">
-            
+
+            <div class="filters">
+                <div class="filter-section">
+                    <div class="filter-title" onclick="toggleFilter(this)">
+                        Sizes
+                        <span>&#9650;</span>
+                    </div>
+                    <div class="filter-options">
+                        <label><input type="checkbox"> S</label><br>
+                        <label><input type="checkbox"> M</label><br>
+                        <label><input type="checkbox"> L</label><br>
+                        <label><input type="checkbox"> XL</label><br>
+                        <label><input type="checkbox"> 2XL</label><br>
+                        <span class="show-link">Show</span>
+                    </div>
+                </div>
+
+                <div class="filter-section">
+                    <div class="filter-title" onclick="toggleFilter(this)">
+                        Brand
+                        <span>&#9650;</span>
+                    </div>
+                    <div class="filter-options">
+                        <label><input type="checkbox"> Bewakoof®</label><br>
+                        <label><input type="checkbox"> Bewakoof Air® 1.0</label><br>
+                        <label><input type="checkbox"> Campus Sutra</label><br>
+                    </div>
+                </div>
+            </div>
+
         </div>
         <div class="leftscroll">
             <div class="card" style="width: 18rem;">
-                <img class="card-img-top " src="https://images.bewakoof.com/t640/men-s-red-graphic-printed-oversized-sweatshirt-644624-1730281473-1.jpg" alt="Card image cap" height="100%" width="100%">
+                <img class="card-img-top "
+                    src="https://images.bewakoof.com/t640/men-s-red-graphic-printed-oversized-sweatshirt-644624-1730281473-1.jpg"
+                    alt="Card image cap" height="100%" width="100%">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-              </div>
-           
+                </div>
+            </div>
+
         </div>
     </div>
 </body>
 
 <script src="../js/product.js"></script>
+
 </html>
