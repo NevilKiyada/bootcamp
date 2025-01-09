@@ -47,32 +47,3 @@
 
 /* filter leftsaid  */
 
-
-.filters {
-    width: 250px;
-    border: 1px solid #ddd;
-    padding: 15px;
-}
-.filter-section {
-    margin-bottom: 20px;
-}
-.filter-title {
-    font-weight: bold;
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: space-between;
-    cursor: pointer;
-}
-.filter-options {
-    display: none;
-}
-.filter-options input {
-    margin-right: 10px;
-}
-.filter-section.active .filter-options {
-    display: block;
-}
-.show-link {
-    color: teal;
-    cursor: pointer;
-}
