@@ -22,14 +22,15 @@
 }
 
 .righscroll{
-    width: 24%;
+    width: 48%;
     border: 1px solid black;
-    height: 600px;
-    background-color: rgb(178, 176, 176);   
+    height: 97vh;
+    background-color: rgb(178, 176, 176); 
+    margin-bottom : 5vh;  
 }
 .leftscroll{
-    width: 73%;
-    height: 600px;
+    width: 48%;
+    height: 97vh;
     border: 1px solid red;
 }
 
