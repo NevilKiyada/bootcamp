@@ -26,11 +26,11 @@
     border: 1px solid black;
     height: 97vh;
     background-color: rgb(178, 176, 176); 
-    margin-bottom : 5vh;  
+    /* padding-bottom : 20px;   */
 }
 .leftscroll{
     width: 48%;
-    height: 97vh;
+    height: 95vh;
     border: 1px solid red;
 }
 
@@ -40,7 +40,9 @@
 /* products cart*/
 
 
-
+.img1{
+    
+}
 
 
 
